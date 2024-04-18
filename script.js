@@ -19,14 +19,14 @@ const team = [
   rank: 3,
   name: 'lau.699',
   handle: 'lau.699',
-  img: 'https://www.formula1.com/content/dam/fom-website/drivers/S/SEBVET01_Sebastian_Vettel/sebvet01.png.transform/2col-retina/image.png',
+  img: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/251a44e6b5fb0f4dd0b4e3c7b8da194c~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1713650400&x-signature=E0K7hCRrUmqCEdmV1aNOCX21vxs%3D',
   kudos: 24,
   sent: 7 },
 {
   rank: 4,
   name: 'isavillegasr',
   handle: 'isavillegasr',
-  img: 'https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/2col-retina/image.png',
+  img: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/a22a38eeaf278b1204459730ef475ec3~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1713650400&x-signature=q7630ziB%2FU5F8OLUmdzgCHAADvc%3D',
   kudos: 22,
   sent: 4 },
 {
