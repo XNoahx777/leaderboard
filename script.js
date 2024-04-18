@@ -6,7 +6,7 @@ const team = [
   name: 'Margarita',
   handle: 'margarita.mi.patrona',
   img: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/0e09fe0cca66a80420476d04e2fe7de0~c5_100x100.webp?lk3s=a5d48078&x-expires=1713650400&x-signature=X5L8QQmMtmue13bcDUiVgoZeAY4%3D',
-  kudos: 10,
+  kudos: 489 k,
   sent: 131 },
 {
   rank: 2,
