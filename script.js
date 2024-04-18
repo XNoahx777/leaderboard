@@ -6,14 +6,14 @@ const team = [
   name: 'Margarita',
   handle: 'margarita.mi.patrona',
   img: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/0e09fe0cca66a80420476d04e2fe7de0~c5_100x100.webp?lk3s=a5d48078&x-expires=1713650400&x-signature=X5L8QQmMtmue13bcDUiVgoZeAY4%3D',
-  kudos: 1.1M,
+  kudos: 1.1,
   sent: 131 },
 {
   rank: 2,
   name: 'evelinmzo',
   handle: 'evelinmzo',
   img: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/df5f9bca8ed56ccbe1a1eb46947c5f4e~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1713650400&x-signature=6KpgJhzVG6kdwTCjAbLK5kKx9iw%3D',
-  kudos: 1M,
+  kudos: 1,
   sent: 121 },
 {
   rank: 3,
