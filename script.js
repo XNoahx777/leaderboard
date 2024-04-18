@@ -34,8 +34,8 @@ const team = [
   name: 'mar.estrada02',
   handle: 'mar.estrada02',
   img: 'https://www.formula1.com/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png.transform/2col-retina/image.png',
-  kudos: 18,
-  sent: 250 },
+  kudos: 250,
+  sent: 5 },
 {
   rank: 6,
   name: 'Charles Leclerc',
