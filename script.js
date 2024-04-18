@@ -33,14 +33,14 @@ const team = [
   rank: 5,
   name: 'mar.estrada02',
   handle: 'mar.estrada02',
-  img: 'https://www.formula1.com/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png.transform/2col-retina/image.png',
+  img: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7357943361527808006~c5_100x100.webp?lk3s=a5d48078&x-expires=1713654000&x-signature=YZ2sQ6IauxFpqm3sAecQTt7xOOU%3D',
   kudos: 250,
   sent: 5 },
 {
   rank: 6,
-  name: 'Charles Leclerc',
-  handle: 'charles_leclerc',
-  img: 'https://www.formula1.com/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png.transform/2col-retina/image.png',
+  name: 'tutidelabarrera',
+  handle: 'tutidelabarrera',
+  img: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e84f8ad4ec67d606bdfaf31d6c1fd7e3~c5_100x100.webp?lk3s=a5d48078&x-expires=1713654000&x-signature=T3KQwLVaMkGeD%2FpWeAKaia1a7R0%3D',
   kudos: 16,
   sent: 6 },
 {
