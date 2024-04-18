@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>ELA - Leaderboard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald|Overpass+Mono&amp;display=swap'><link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald|Overpass+Mono&amp;display=swap'>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    /* Add custom CSS here */
+    .c-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px; /* Adjust margin as needed */
+    }
+
+    .c-logo-text {
+      font-family: 'Oswald', sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      margin-left: 10px; /* Adjust margin as needed */
+    }
+  </style>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="l-wrapper">
-  <div class="c-header"><img class="c-logo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/km-logo-color.svg" draggable="false"/>
-  </div>
+  <div class="l-wrapper">
+    <div class="c-header">
+      <div class="c-logo-text">ELA NETWORK</div>
+    </div>
+    <button class="c-button c-button--primary">ELA Leaderboard</button>
   <div class="l-grid">
     <div class="l-grid__item l-grid__item--sticky">
       <div class="c-card u-bg--light-gradient u-text--dark">
