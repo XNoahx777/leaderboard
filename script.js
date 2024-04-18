@@ -20,7 +20,7 @@ const team = [
   name: 'lau.699',
   handle: 'lau.699',
   img: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/251a44e6b5fb0f4dd0b4e3c7b8da194c~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1713650400&x-signature=E0K7hCRrUmqCEdmV1aNOCX21vxs%3D',
-  kudos: 690K,
+  kudos: 690,
   sent: 7 },
 {
   rank: 4,
