@@ -1,18 +1,38 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>ELA - Leaderboard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald|Overpass+Mono&amp;display=swap'><link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald|Overpass+Mono&amp;display=swap'>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    /* Add custom CSS here */
+    .c-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px; /* Adjust margin as needed */
+    }
 
+    .c-logo-text {
+      font-family: 'Oswald', sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      margin-left: 10px; /* Adjust margin as needed */
+    }
+  </style>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="l-wrapper">
-  <div class="c-header"><img class="c-logo" src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fca511fa8b26df73f063a03056da59c5~c5_100x100.webp?lk3s=a5d48078&x-expires=1713654000&x-signature=%2FNN48qsKORTG32%2F9gxWrAlU9ABM%3D" draggable="false"/>
+  <div class="l-wrapper">
+    <div class="c-header">
+      <div class="c-logo-text">ELA NETWORK</div>
+    </div>
     <button class="c-button c-button--primary">ELA Leaderboard</button>
-  </div>
+    <div class="l-grid">
+      <!-- Your existing grid content here -->
+    </div>
   <div class="l-grid">
     <div class="l-grid__item l-grid__item--sticky">
       <div class="c-card u-bg--light-gradient u-text--dark">
