@@ -1,38 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>ELA - Leaderboard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald|Overpass+Mono&amp;display=swap'>
-  <link rel="stylesheet" href="./style.css">
-  <style>
-    /* Add custom CSS here */
-    .c-header {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px; /* Adjust margin as needed */
-    }
+  <title>CodePen - Leaderboard Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald|Overpass+Mono&amp;display=swap'><link rel="stylesheet" href="./style.css">
 
-    .c-logo-text {
-      font-family: 'Oswald', sans-serif;
-      font-size: 24px;
-      font-weight: bold;
-      margin-left: 10px; /* Adjust margin as needed */
-    }
-  </style>
 </head>
 <body>
-  <div class="l-wrapper">
-    <div class="c-header">
-      <div class="c-logo-text">ELA NETWORK</div>
-    </div>
-    <button class="c-button c-button--primary">ELA Leaderboard</button>
-    <div class="l-grid">
-      <!-- Your existing grid content here -->
-    </div>
+<!-- partial:index.partial.html -->
+<div class="l-wrapper">
+  <div class="c-header"><img class="c-logo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/km-logo-color.svg" draggable="false"/>
+    <button class="c-button c-button--primary">Send Kudos</button>
+  </div>
   <div class="l-grid">
     <div class="l-grid__item l-grid__item--sticky">
       <div class="c-card u-bg--light-gradient u-text--dark">
@@ -40,7 +20,7 @@
           <div class="u-display--flex u-justify--space-between">
             <div class="u-text--left">
               <div class="u-text--small">My Rank</div>
-              <h2>1 Puesto Mensual</h2>
+              <h2>3rd Place</h2>
             </div>
             <div class="u-text--right">
               <div class="u-text--small">My Score</div>
@@ -58,9 +38,9 @@
     <div class="l-grid__item">
       <div class="c-card">
         <div class="c-card__header">
-          <h3>Received Coins</h3>
+          <h3>Received Kudos</h3>
           <select class="c-select">
-            <option selected="selected">Sunday, Marzo 1 - Sunday, Marzo. 30</option>
+            <option selected="selected">Sunday, Feb. 23 - Sunday, Feb. 30</option>
           </select>
         </div>
         <div class="c-card__body">
@@ -69,7 +49,7 @@
               <div class="c-list__grid">
                 <div class="u-text--left u-text--small u-text--medium">Rank</div>
                 <div class="u-text--left u-text--small u-text--medium">Team Member</div>
-                <div class="u-text--right u-text--small u-text--medium">Puntos</div>
+                <div class="u-text--right u-text--small u-text--medium"># of Kudos</div>
               </div>
             </li>
           </ul>
