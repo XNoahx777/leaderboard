@@ -1,38 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
   <title>ELA - Leaderboard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald|Overpass+Mono&amp;display=swap'>
-  <link rel="stylesheet" href="./style.css">
-  <style>
-    /* Add custom CSS here */
-    .c-header {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px; /* Adjust margin as needed */
-    }
-
-    .c-logo-text {
-      font-family: 'Oswald', sans-serif;
-      font-size: 24px;
-      font-weight: bold;
-      margin-left: 10px; /* Adjust margin as needed */
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald|Overpass+Mono&amp;display=swap'><link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="l-wrapper">
-    <div class="c-header">
-      <div class="c-logo-text">ELA NETWORK</div>
-    </div>
+<!-- partial:index.partial.html -->
+<div class="l-wrapper">
+  <div class="c-header"><img class="c-logo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/km-logo-color.svg" draggable="false"/>
+  <div class="c-header"><img class="c-logo" src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fca511fa8b26df73f063a03056da59c5~c5_100x100.webp?lk3s=a5d48078&x-expires=1713654000&x-signature=%2FNN48qsKORTG32%2F9gxWrAlU9ABM%3D" draggable="false"/>
     <button class="c-button c-button--primary">ELA Leaderboard</button>
-    <div class="l-grid">
-      <!-- Your existing grid content here -->
+  </div>
+  <div class="l-grid">
+    <div class="l-grid__item l-grid__item--sticky">
+      <div class="c-card u-bg--light-gradient u-text--dark">
+        <div class="c-card__body">
+          <div class="u-display--flex u-justify--space-between">
+            <div class="u-text--left">
+              <div class="u-text--small">My Rank</div>
+              <h2>1 Puesto Mensual</h2>
+            </div>
+            <div class="u-text--right">
+              <div class="u-text--small">My Score</div>
+              <h2>24</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c-card">
+        <div class="c-card__body">
+          <div class="u-text--center" id="winner"></div>
+        </div>
+      </div>
+    </div>
+    <div class="l-grid__item">
+      <div class="c-card">
+        <div class="c-card__header">
+          <h3>Received Coins</h3>
+          <select class="c-select">
+            <option selected="selected">Sunday, Marzo 1 - Sunday, Marzo. 30</option>
+          </select>
+        </div>
+        <div class="c-card__body">
+          <ul class="c-list" id="list">
+            <li class="c-list__item">
+              <div class="c-list__grid">
+                <div class="u-text--left u-text--small u-text--medium">Rank</div>
+                <div class="u-text--left u-text--small u-text--medium">Team Member</div>
+                <div class="u-text--right u-text--small u-text--medium">Puntos</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
 </body>
 </html>
