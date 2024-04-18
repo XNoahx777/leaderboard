@@ -3,7 +3,7 @@ console.clear();
 const team = [
 	{
 		rank: 1,
-		name: 'Lewis Hamilton',
+		name: 'Holi Hamilton',
 		handle: 'lewishamilton',
 		img: 'https://www.formula1.com/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png.transform/2col-retina/image.png',
 		kudos: 36,
