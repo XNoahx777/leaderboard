@@ -12,7 +12,7 @@ const team = [
   rank: 2,
   name: 'evelinmzo',
   handle: 'evelinmzo',
-  img: 'https://www.formula1.com/content/dam/fom-website/drivers/K/KIMRAI01_Kimi_R%C3%A4ikk%C3%B6nen/kimrai01.png.transform/2col-retina/image.png',
+  img: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/df5f9bca8ed56ccbe1a1eb46947c5f4e~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1713650400&x-signature=6KpgJhzVG6kdwTCjAbLK5kKx9iw%3D',
   kudos: 31,
   sent: 21 },
 {
