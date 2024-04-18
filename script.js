@@ -90,7 +90,7 @@ team.forEach(member => {
 				<img class="c-avatar c-media__img" src="${member.img}" />
 				<div class="c-media__content">
 					<div class="c-media__title">${member.name}</div>
-					<a class="c-media__link u-text--small" href="https://instagram.com/${member.handle}" target="_blank">@${member.handle}</a>
+					<a class="c-media__link u-text--small" href="https://tiktok.com/@${member.handle}" target="_blank">@${member.handle}</a>
 				</div>
 			</div>
 			<div class="u-text--right c-kudos">
@@ -123,7 +123,7 @@ let winner = sortedTeam[0];
 // Render winner card
 const winnerCard = document.getElementById('winner');
 winnerCard.innerHTML = `
-	<div class="u-text-small u-text--medium u-mb--16">Top Sender Last Week</div>
+	<div class="u-text-small u-text--medium u-mb--16">Top Creator Last Week</div>
 	<img class="c-avatar c-avatar--lg" src="${winner.img}"/>
 	<h3 class="u-mt--16">${winner.name}</h3>
 	<span class="u-text--teal u-text--small">${winner.name}</span>
